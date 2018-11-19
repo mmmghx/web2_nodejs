@@ -1,0 +1,405 @@
+{
+  "appPackage": "com.nhn.android.navercafe",
+  "appVersion": "4.1.11",
+  "description": "11/5생성",
+  "launchEndTime": 0,
+  "launchInMqmsSpace": false,
+  "launchStartTime": 0,
+  "name": "CAFE",
+  "performanceFile": "performance.json",
+  "resHeight": 2220,
+  "resWidth": 1080,
+  "result": "scenario time out",
+  "resultType": 7,
+  "scheduledTime": 1541586496926,
+  "startTimeStamp": 1541586498966,
+  "stopTimeStamp": 1541586689463,
+  "syncResult": 1,
+  "tcpdumpFile": "netCapture.pcap",
+  "transactions": [
+    {
+      "display": 1,
+      "startTimeStamp": 1541586505622,
+      "steps": [
+        {
+          "actionStartTimeStamp": 1541586502484,
+          "actionStopTimeStamp": 1541586505622,
+          "startTimeStamp": 1541586502431,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 0,
+          "stepName": "click setting icon",
+          "stopTimeStamp": 1541586505622
+        },
+        {
+          "actionStartTimeStamp": 1541586540972,
+          "actionStopTimeStamp": 1541586542039,
+          "startTimeStamp": 1541586505622,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 1,
+          "stepName": "click log-in info",
+          "stopTimeStamp": 1541586542039
+        },
+        {
+          "actionStartTimeStamp": 1541586542540,
+          "actionStopTimeStamp": 1541586542832,
+          "startTimeStamp": 1541586542039,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 2,
+          "stepName": "click log-out",
+          "stopTimeStamp": 1541586542833
+        },
+        {
+          "actionStartTimeStamp": 1541586543383,
+          "actionStopTimeStamp": 1541586543558,
+          "startTimeStamp": 1541586542833,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 3,
+          "stepName": "easy log-in check",
+          "stopTimeStamp": 1541586543558
+        },
+        {
+          "actionStartTimeStamp": 1541586544094,
+          "actionStopTimeStamp": 1541586544445,
+          "startTimeStamp": 1541586543558,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 4,
+          "stepName": "click ok",
+          "stopTimeStamp": 1541586544445
+        },
+        {
+          "actionStartTimeStamp": 1541586548890,
+          "actionStopTimeStamp": 1541586552032,
+          "startTimeStamp": 1541586544445,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 5,
+          "stepName": "click id",
+          "stopTimeStamp": 1541586552032
+        },
+        {
+          "actionStartTimeStamp": 1541586552072,
+          "actionStopTimeStamp": 1541586556897,
+          "startTimeStamp": 1541586552032,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 6,
+          "stepName": "put id",
+          "stopTimeStamp": 1541586556898
+        },
+        {
+          "actionStartTimeStamp": 1541586557483,
+          "actionStopTimeStamp": 1541586557650,
+          "startTimeStamp": 1541586556898,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 7,
+          "stepName": "click pw",
+          "stopTimeStamp": 1541586557650
+        },
+        {
+          "actionStartTimeStamp": 1541586558316,
+          "actionStopTimeStamp": 1541586563193,
+          "startTimeStamp": 1541586557650,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 8,
+          "stepName": "put pw",
+          "stopTimeStamp": 1541586563193
+        },
+        {
+          "actionStartTimeStamp": 1541586563747,
+          "actionStopTimeStamp": 1541586563985,
+          "startTimeStamp": 1541586563193,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 9,
+          "stepName": "click log-in",
+          "stopTimeStamp": 1541586563985
+        },
+        {
+          "actionStartTimeStamp": 1541586563986,
+          "actionStopTimeStamp": 1541586563986,
+          "startTimeStamp": 1541586563985,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 10,
+          "stepName": "wait",
+          "stopTimeStamp": 1541586566987
+        },
+        {
+          "actionStartTimeStamp": 1541586566988,
+          "actionStopTimeStamp": 1541586567064,
+          "startTimeStamp": 1541586566987,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 11,
+          "stepName": "press back key",
+          "stopTimeStamp": 1541586567064
+        }
+      ],
+      "stopTimeStamp": 1541586567064,
+      "transEndScreenCap": "ScreenCap/TransactionScreenCap_Transaction0.jpg",
+      "transErrorInfo": "success",
+      "transExecResult": true,
+      "transIndex": 0,
+      "transName": "Log-in",
+      "transactionType": 1
+    },
+    {
+      "display": 1,
+      "startTimeStamp": 1541586568042,
+      "steps": [
+        {
+          "actionStartTimeStamp": 1541586567896,
+          "actionStopTimeStamp": 1541586568042,
+          "startTimeStamp": 1541586567071,
+          "stepErrorInfo": "success",
+          "stepExecResult": true,
+          "stepIndex": 0,
+          "stepName": "click my cafe (lnb)",
+          "stopTimeStamp": 1541586609316,
+          "verifyInfos": [
+            {
+              "foundAdjustTime": 0,
+              "params": {
+                "index": 0,
+                "metastate": 0,
+                "selector": {
+                  "className": "android.widget.TextView",
+                  "resourceId": "com.nhn.android.navercafe:id/title_text_view",
+                  "text": {
+                    "matchMode": "equals",
+                    "value": "내카페"
+                  }
+                }
+              },
+              "verifyElementType": "UIObject",
+              "verifyExist": "once",
+              "verifyFailAction": "interrupt",
+              "verifyName": "LNB '내카페' 접속",
+              "verifyResult": true,
+              "waitTimeout": 10000
+            },
+            {
+              "foundAdjustTime": 0,
+              "params": {
+                "index": 0,
+                "metastate": 0,
+                "selector": {
+                  "className": "android.widget.RelativeLayout",
+                  "resourceId": "com.nhn.android.navercafe:id/root_view"
+                }
+              },
+              "verifyElementType": "UIObject",
+              "verifyExist": "once",
+              "verifyFailAction": "interrupt",
+              "verifyName": "내 카페 목록 노출",
+              "verifyResult": true,
+              "waitTimeout": 10000
+            },
+            {
+              "foundAdjustTime": 0,
+              "params": {
+                "index": 0,
+                "metastate": 0,
+                "selector": {
+                  "className": "android.widget.TextView",
+                  "resourceId": "com.nhn.android.navercafe:id/cafe_name_text_view",
+                  "text": {
+                    "matchMode": "equals",
+                    "value": "nm_001(TopazTest) TEMPTEXT"
+                  }
+                }
+              },
+              "verifyElementType": "UIObject",
+              "verifyExist": "once",
+              "verifyFailAction": "interrupt",
+              "verifyName": "verify 3",
+              "verifyResult": true,
+              "waitTimeout": 10000
+            }
+          ]
+        },
+        {
+          "actionStartTimeStamp": 1541586609358,
+          "actionStopTimeStamp": 1541586648299,
+          "startTimeStamp": 1541586609316,
+          "stepErrorInfo": "scenario time out",
+          "stepErrorScreenCap": "ScreenCap/StepErrorScreenCap_Transaction1Step1.jpg",
+          "stepExecResult": false,
+          "stepIndex": 1,
+          "stepName": "click cafe 'nm_001(topaz test)'",
+          "stopTimeStamp": 1541586685706,
+          "verifyInfos": [
+            {
+              "params": {
+                "index": 0,
+                "metastate": 0,
+                "selector": {
+                  "className": "android.widget.TextView",
+                  "resourceId": "com.nhn.android.navercafe:id/cafeinfo_deco_mobilecafename",
+                  "text": {
+                    "matchMode": "equals",
+                    "value": "nm_001(TopazTest)"
+                  }
+                }
+              },
+              "verifyElementType": "UIObject",
+              "verifyExist": "once",
+              "verifyFailAction": "interrupt",
+              "verifyName": "개별카페 접속하여 제목 노출 체크",
+              "waitTimeout": 10000
+            },
+            {
+              "params": {
+                "index": 0,
+                "metastate": 0,
+                "selector": {
+                  "className": "android.widget.LinearLayout",
+                  "resourceId": "com.nhn.android.navercafe:id/article_view"
+                }
+              },
+              "verifyElementType": "UIObject",
+              "verifyExist": "once",
+              "verifyFailAction": "interrupt",
+              "verifyName": "글목록 노출 여부",
+              "waitTimeout": 10000
+            }
+          ]
+        },
+        {
+          "stepIndex": 2,
+          "stepName": "Click article",
+          "verifyInfos": [
+            {
+              "params": {
+                "index": 0,
+                "metastate": 0,
+                "selector": {
+                  "resourceId": "android.view.View",
+                  "text": {
+                    "matchMode": "equals",
+                    "value": "test"
+                  }
+                }
+              },
+              "verifyElementType": "UIObject",
+              "verifyExist": "once",
+              "verifyFailAction": "interrupt",
+              "verifyName": "글내용 노출여부",
+              "waitTimeout": 10000
+            },
+            {
+              "params": {
+                "index": 0,
+                "metastate": 0,
+                "selector": {
+                  "resourceId": ""
+                }
+              },
+              "verifyElementType": "UIObject",
+              "verifyExist": "once",
+              "verifyFailAction": "interrupt",
+              "verifyName": "verify 2",
+              "waitTimeout": 10000
+            }
+          ]
+        },
+        {
+          "stepIndex": 3,
+          "stepName": "press back key"
+        },
+        {
+          "stepIndex": 4,
+          "stepName": "click write article button",
+          "verifyInfos": [
+            {
+              "params": {
+                "index": 0,
+                "metastate": 0,
+                "selector": {
+                  "className": "android.widget.EditText",
+                  "resourceId": "com.nhn.android.navercafe:id/articlewrite_subject_edittext",
+                  "text": {
+                    "matchMode": "equals",
+                    "value": "제목"
+                  }
+                }
+              },
+              "verifyElementType": "UIObject",
+              "verifyExist": "once",
+              "verifyFailAction": "interrupt",
+              "verifyName": "write article _ title area",
+              "waitTimeout": 10000
+            },
+            {
+              "params": {
+                "index": 0,
+                "metastate": 0,
+                "selector": {
+                  "className": "android.widget.TextView",
+                  "description": {
+                    "matchMode": "equals",
+                    "value": "내용 수정창으로 이동"
+                  },
+                  "resourceId": "com.nhn.android.navercafe:id/articlewrite_content_info_text",
+                  "text": {
+                    "matchMode": "equals",
+                    "value": "내용"
+                  }
+                }
+              },
+              "verifyElementType": "UIObject",
+              "verifyExist": "once",
+              "verifyFailAction": "interrupt",
+              "verifyName": "verify 2",
+              "waitTimeout": 10000
+            }
+          ]
+        },
+        {
+          "stepIndex": 5,
+          "stepName": "choose board button"
+        },
+        {
+          "stepIndex": 6,
+          "stepName": "choose board '자유로운글'"
+        },
+        {
+          "stepIndex": 7,
+          "stepName": "put 'test' in title area"
+        },
+        {
+          "stepIndex": 8,
+          "stepName": "put 'testtest' in contents area"
+        },
+        {
+          "stepIndex": 9,
+          "stepName": "press back key"
+        },
+        {
+          "stepIndex": 10,
+          "stepName": "press back key"
+        },
+        {
+          "stepIndex": 11,
+          "stepName": "click enroll"
+        }
+      ],
+      "stopTimeStamp": 1541586685707,
+      "transEndScreenCap": "ScreenCap/StepErrorScreenCap_Transaction1Step1.jpg",
+      "transErrorInfo": "scenario time out",
+      "transExecResult": false,
+      "transIndex": 1,
+      "transName": "LNB _ My cafe",
+      "transactionType": 1
+    }
+  ],
+  "version": "0.0.1",
+  "waitTimeout": 120000
+}
